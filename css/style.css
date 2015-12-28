@@ -1,0 +1,200 @@
+body { background: url(../images/binding_dark.png)repeat }
+.container { background: #fff }
+ul { list-style: none }
+a:hover { text-decoration: none }
+a:focus { text-decoration: none }
+/*===top-area===*/
+section#top-area {
+    padding: 15px 0;
+    background: #F2680D;
+}
+.logo {
+    padding: 0 0 0 10px;
+}
+.social-contact {
+    padding-right: 20px;
+}
+
+/*=== slide-area ===*/
+#wowslider-container1 {
+    max-width: 100%; 
+    margin: 5px auto 12.5px;
+}
+#wowslider-container1 .ws_images {
+	max-width: 100%;
+    margin-top: 13px;
+}
+section#slide-area {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+/*===navbar===*/
+.menu-item {
+    background: #000;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.menu-item ul li a {
+    color: #fff;
+    font-size: 12px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.menu-item li {
+    padding-bottom: 10px;
+}
+
+.menu-item {
+    border-radius: 5px;
+	border: 2px solid #ccc;
+}
+.menu-item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	border: 2px solid #ccc;
+}
+.s_icon i {
+    display: inline-table;
+    vertical-align: middle;
+    background: #3879D9;
+    color: #fff;
+    padding: 10px;
+    border-radius: 100%;
+	transition: .5s;
+	font-size: 15px;
+	border: 1px solid #fff;
+}
+.s_icon i:hover {
+    background: #fff;
+    color: #3879D9;
+    box-shadow: 1px 3px 3px #01D;
+}
+
+i.fa.fa-facebook {
+    padding: 10px 13px;
+}
+ul.navigation {
+    background: #F2680D;
+    padding: 10px 46px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px #FFA23B;
+}
+/*===content-area===*/
+
+.about-content {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+.about-content h3 {
+    margin: 0px 0px 10px;
+    background: #F2680D;
+    padding: 7px 10px;
+    color: #fff;
+    box-shadow: 1px 3px 6px #000;
+}
+/*===news-scrolling===*/
+.holder {
+  padding-left: 8px;
+  width: 245px;
+  height: 252px;
+  overflow: hidden;
+  padding-right: 20px;
+  font-family: Helvetica;
+}
+.holder h4 {
+    margin: 1px;
+    border-bottom: 1px solid #ccc;
+}
+
+.holder .mask {
+  position: relative;
+  left: 0px;
+  top: 10px;
+  width: 230px;
+  height: 240px;
+  overflow: hidden;
+}
+
+.holder ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.holder ul li {
+  padding: 3px 0px;
+}
+
+.holder ul li a {
+  text-decoration: none;
+}
+
+/*===photo-scrolling===*/
+.simply-scroll .simply-scroll-list li {
+    float: left;
+    width: 210px;
+    height: 200px;
+}
+.simply-scroll {
+    width: 100%;
+}
+.simply-scroll .simply-scroll-clip {
+    width: 100%;
+}
+/*===about-page===*/
+.about_img img {
+    height: 279px;
+    width: 100%;
+}
+/*===photo-gallery===*/
+.img-gallery h3 {
+    margin: 0px 0px 10px;
+    background: #F2680D;
+    padding: 7px 10px;
+    color: #fff;
+    box-shadow: 1px 3px 6px #000;
+}
+.member-img-sm  {
+    float: left;
+    margin: 10px;
+}
+
+.img-gallery.clearfix {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #DADADA;
+}
+
+.member-img-sm img {
+    background: #FFCE44;
+    padding: 2px;
+    border: 1px solid #3879D9;
+    box-shadow: 1px 1px 2px #000;
+}
+.img-gallery.clearfix {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #DADADA;
+}
+
+.member-img-sm img {
+    background: #fff;
+    padding: 2px;
+    border: 1px solid #3879D9;
+    box-shadow: 1px 1px 2px #000;
+}
+/*===krushi-page===*/
+.krushi-mahotshav h3 {
+    margin: 0px 0px 10px;
+    background: #F2680D;
+    padding: 7px 10px;
+    color: #fff;
+    box-shadow: 1px 3px 6px #000;
+}
+/*===site-map===*/
+#map {
+      width: 100%;
+      height: 400px;
+    }
